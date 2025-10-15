@@ -1,0 +1,95 @@
+Metadata-Version: 2.4
+Name: krishirakshak-backend
+Version: 0.1.0
+Summary: KrishiRakshak FastAPI backend for Android/Web/Voice
+Author: KrishiRakshak Team
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.115.0
+Requires-Dist: uvicorn[standard]>=0.30.0
+Requires-Dist: pydantic-settings>=2.0.3
+Requires-Dist: python-multipart>=0.0.9
+Requires-Dist: sqlalchemy>=2.0.32
+Requires-Dist: sqlmodel>=0.0.21
+Requires-Dist: asyncpg>=0.29.0
+Requires-Dist: alembic>=1.13.3
+Requires-Dist: passlib[bcrypt]>=1.7.4
+Requires-Dist: pyjwt[crypto]>=2.9.0
+Requires-Dist: celery[redis]>=5.4.0
+Requires-Dist: redis>=5.0.8
+Requires-Dist: boto3>=1.35.0
+Requires-Dist: minio>=7.2.7
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: aiofiles>=24.1.0
+Requires-Dist: tenacity>=9.0.0
+Requires-Dist: orjson>=3.10.7
+Provides-Extra: dev
+Requires-Dist: pytest>=8.3.2; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.24.0; extra == "dev"
+Requires-Dist: anyio>=4.4.0; extra == "dev"
+Requires-Dist: requests>=2.32.3; extra == "dev"
+Requires-Dist: ruff>=0.6.8; extra == "dev"
+
+# KrishiRakshak Backend
+
+FastAPI backend for Android, Web Dashboard, and Voice/Chat (WhatsApp + Telegram).
+
+## Features
+- Auth (JWT), image upload with async inference (mock), report CRUD, feedback
+- CORS configurable; WebSocket stub for realtime
+- Webhooks for Telegram/WhatsApp (mock clients), LLM/STT mock managers
+- Celery + Redis scaffolding with local sync fallback
+- Storage: local filesystem with MinIO placeholders
+- Docker Compose and GitHub Actions CI
+
+## Quickstart (Local Dev)
+1. Create and activate a Python 3.11+ venv, then install deps:
+   ```bash
+   pip install -e .[dev]
+   ```
+2. Copy env:
+   ```bash
+   cp .env.example .env
+   ```
+3. Run API:
+   ```bash
+   uvicorn krishirakshak_backend.main:app --reload
+   ```
+4. Open API docs at `http://localhost:8000/docs`.
+
+## Docker (DB/Redis/MinIO)
+```bash
+docker compose up --build
+```
+Backend on `http://localhost:8000`.
+
+## Endpoints
+- POST `POST /api/v1/auth/register`
+- POST `POST /api/v1/auth/login`
+- GET  `/api/v1/me`
+- POST `/api/v1/upload` (multipart `file`; optional fields: `crop_type`, `lat`, `lon`, `farmer_id`, `consent_for_training`)
+- GET  `/api/v1/reports?farmer_id=...`
+- GET  `/api/v1/reports/{id}`
+- POST `/api/v1/feedback`
+- POST `/api/v1/webhooks/telegram`
+- POST `/api/v1/webhooks/whatsapp`
+- WS   `/ws/`
+
+## Mock vs Real
+- `LLM_MODE=MOCK|OPENAI|LOCAL` (OPENAI requires `OPENAI_API_KEY`)
+- `STT_MODE=MOCK` placeholder
+- `TELEGRAM_ENABLED=false`, `WHATSAPP_ENABLED=false`
+
+## Android emulator
+Use `http://10.0.2.2:8000/api/v1/upload`.
+
+## Privacy & Consent
+- `consent_for_training` stored with each `Report` and on `Farmer` profile.
+
+## Tests
+```bash
+pytest -q
+```
+
+## Notes
+- For production, wire real MinIO/S3 in `storage.py`, real Celery tasks in `tasks.py`, and real integrations in `integrations/*`.
