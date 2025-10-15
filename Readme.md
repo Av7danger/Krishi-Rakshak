@@ -1,0 +1,1 @@
+**KrishiRakshak** is an AI-powered pest management system for farmers. It detects crop diseases using computer vision, provides natural remedy suggestions via LLMs, and supports Android, web, and voice agents (WhatsApp/Telegram) for real-time, offline-capable farm assistance and pest monitoring.
