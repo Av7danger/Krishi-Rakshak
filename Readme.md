@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌾 KrishiRakshak-ML
+# 🌾 KrishiRakshak
 
 ### *Empowering Farmers with AI-Driven Agricultural Intelligence*
 
