@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  infer:
+    build:
+      context: .
+      dockerfile: inference/serve/Dockerfile
+    environment:
+      - MODEL_ID=simulated
+    ports:
+      - "8000:8000"
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 1g
+

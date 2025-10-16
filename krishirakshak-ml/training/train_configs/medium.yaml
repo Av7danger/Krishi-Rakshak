@@ -1,0 +1,5 @@
+model: yolov8s.pt
+epochs: 30
+batch: 16
+imgsz: 640
+

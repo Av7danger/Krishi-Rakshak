@@ -1,0 +1,10 @@
+torch
+ultralytics
+timm
+mlflow
+pyyaml
+scikit-learn
+numpy
+pillow
+opencv-python-headless
+

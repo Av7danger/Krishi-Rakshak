@@ -1,0 +1,8 @@
+names:
+  0: aphid
+  1: caterpillar
+  2: leaf_spot
+  3: healthy
+path: C:\Users\anish\OneDrive\Desktop\Projects\Krishi-Rakshak\krishirakshak-ml\datasets\build
+train: images\train
+val: images\val

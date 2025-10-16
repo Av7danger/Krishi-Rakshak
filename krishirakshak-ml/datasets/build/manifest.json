@@ -1,0 +1,257 @@
+{
+  "classes": [
+    "aphid",
+    "caterpillar",
+    "leaf_spot",
+    "healthy"
+  ],
+  "counts": {
+    "aphid": 7,
+    "caterpillar": 7,
+    "leaf_spot": 10,
+    "healthy": 0
+  },
+  "files": [
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_039_leaf_spot.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_039_leaf_spot.txt",
+      "checksum": "fb4163acc6410112b12d866357291a8c",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_006_caterpillar.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_006_caterpillar.txt",
+      "checksum": "4be978bcb95a8795efbb4385306f93bd",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_025_caterpillar.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_025_caterpillar.txt",
+      "checksum": "ca8416f19bb84e6c39226b0a26b3cf24",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_009_aphid.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_009_aphid.txt",
+      "checksum": "4a8a3a2e9c65dca1bfce21687c87a251",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_013_healthy.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_013_healthy.txt",
+      "checksum": "7c171950fcdcaf27d354e44598ca162c",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_031_leaf_spot.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_031_leaf_spot.txt",
+      "checksum": "7f0e9a1a6659905fa1f44adc2eb4a60f",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_034_healthy.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_034_healthy.txt",
+      "checksum": "0bdf2047b7b57f6965120a24edf987e8",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_008_caterpillar.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_008_caterpillar.txt",
+      "checksum": "774b6bd340dce21ac85c545ffa2c58cc",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_017_leaf_spot.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_017_leaf_spot.txt",
+      "checksum": "0399b0f77e8f64075d94d7dde14902c1",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_024_leaf_spot.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_024_leaf_spot.txt",
+      "checksum": "6f681c6a6b361e19d320dc0326fc5ebb",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_000_caterpillar.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_000_caterpillar.txt",
+      "checksum": "58d66ea1a56ce73df19909896cbf3e8c",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_033_aphid.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_033_aphid.txt",
+      "checksum": "adcbdcdd3cd235e28bc916f7618170ad",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_005_healthy.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_005_healthy.txt",
+      "checksum": "8811c932cd74af08bf8383c40642fc7f",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_011_aphid.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_011_aphid.txt",
+      "checksum": "d6f60bea0176cc417a0bc2cb0314fbed",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_001_leaf_spot.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_001_leaf_spot.txt",
+      "checksum": "5246def8aa560bca7f62bb9e4c091a4a",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_029_aphid.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_029_aphid.txt",
+      "checksum": "15e3a43e17af80ed1a24087e358fa5db",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_021_leaf_spot.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_021_leaf_spot.txt",
+      "checksum": "843611a9c6d97f3c2648155f6782cf03",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_002_leaf_spot.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_002_leaf_spot.txt",
+      "checksum": "e18446a2efb784ee43f458f379742a21",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_030_healthy.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_030_healthy.txt",
+      "checksum": "662399a5608362ea78b7baf0cdb57983",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_036_healthy.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_036_healthy.txt",
+      "checksum": "6b68f2a315513de6a2bab001183462bb",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_003_healthy.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_003_healthy.txt",
+      "checksum": "71508b126ae9b4837e801f02e0dbf6b1",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_035_aphid.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_035_aphid.txt",
+      "checksum": "da9b7a7f1a23c936aa336a7d05543055",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_023_healthy.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_023_healthy.txt",
+      "checksum": "2504874510c1e44cb637f896f4c7378a",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_032_healthy.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_032_healthy.txt",
+      "checksum": "8d16c15588cba83745024ffecc8bd7b9",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_010_leaf_spot.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_010_leaf_spot.txt",
+      "checksum": "ff63794548b0cceec7039a968029e5f6",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_022_aphid.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_022_aphid.txt",
+      "checksum": "e60d93bca55d474839ecb134ad34640b",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_018_healthy.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_018_healthy.txt",
+      "checksum": "7235a737b3b385c1840f71e781ebf49d",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_020_healthy.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_020_healthy.txt",
+      "checksum": "1aa98256a554df35faf6848340e77e98",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_007_healthy.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_007_healthy.txt",
+      "checksum": "33feea6b7ce56339e81ef0fbcbac0bec",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_014_healthy.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_014_healthy.txt",
+      "checksum": "4c7c487242b9d7bfb00ec2bbe036f848",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_028_healthy.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_028_healthy.txt",
+      "checksum": "4e4a6098f17d55b1226a82caa39dbf16",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\train\\synthetic_038_caterpillar.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\train\\synthetic_038_caterpillar.txt",
+      "checksum": "0eef189ba38c2198365528cb7a7c75a4",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\val\\synthetic_019_healthy.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\val\\synthetic_019_healthy.txt",
+      "checksum": "f74efb014883e7c4708690e112ae5792",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\val\\synthetic_016_healthy.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\val\\synthetic_016_healthy.txt",
+      "checksum": "aaa51b3751e7a10d9bfba32274f1b792",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\val\\synthetic_015_caterpillar.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\val\\synthetic_015_caterpillar.txt",
+      "checksum": "055092095a71832a9dd7b88ecf1a8e42",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\val\\synthetic_026_leaf_spot.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\val\\synthetic_026_leaf_spot.txt",
+      "checksum": "890da0e547ea8d502fd62d99b7c34b42",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\val\\synthetic_004_leaf_spot.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\val\\synthetic_004_leaf_spot.txt",
+      "checksum": "0d9858e3debad89ae20d9f70a7b00b08",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\val\\synthetic_012_caterpillar.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\val\\synthetic_012_caterpillar.txt",
+      "checksum": "a1be1c34acd33bf2d54c658b611752db",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\val\\synthetic_037_healthy.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\val\\synthetic_037_healthy.txt",
+      "checksum": "98c2a32c01cb05cb045952e99ccf765f",
+      "consent": true
+    },
+    {
+      "file": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\images\\val\\synthetic_027_aphid.png",
+      "label": "C:\\Users\\anish\\OneDrive\\Desktop\\Projects\\Krishi-Rakshak\\krishirakshak-ml\\datasets\\build\\labels\\val\\synthetic_027_aphid.txt",
+      "checksum": "e235861ec9401931d5827b120c94d0d4",
+      "consent": true
+    }
+  ],
+  "consent_default": true
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "image": "data/raw/synthetic_000_aphid.png",
+    "width": 320,
+    "height": 320,
+    "detections": [
+      {"cls_id": 0, "bbox_xyxy": [64,64,192,192]}
+    ]
+  }
+]

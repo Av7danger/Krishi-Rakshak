@@ -1,0 +1,66 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install
+        run: |
+          python -m venv .venv
+          source .venv/bin/activate
+          python -m pip install -U pip wheel
+          pip install -e .[dev]
+      - name: Generate synthetic data
+        run: |
+          source .venv/bin/activate
+          python krishirakshak-ml/data/synthetic/generator.py --out krishirakshak-ml/data/raw --num 24
+      - name: Prepare dataset
+        run: |
+          source .venv/bin/activate
+          python krishirakshak-ml/datasets/prepare_dataset.py --data-config krishirakshak-ml/datasets/data_config.yaml --out krishirakshak-ml/datasets/build
+      - name: Lint
+        run: |
+          source .venv/bin/activate
+          flake8 krishirakshak-ml --max-line-length 100 || true
+      - name: Unit tests
+        run: |
+          source .venv/bin/activate
+          pytest krishirakshak-ml/tests/unit -q
+      - name: Smoke train
+        run: |
+          source .venv/bin/activate
+          python krishirakshak-ml/training/train.py --config krishirakshak-ml/training/train_configs/small.yaml --smoke
+      - name: Export model (smoke)
+        run: |
+          source .venv/bin/activate
+          python krishirakshak-ml/export/export_model.py --run-id latest --out krishirakshak-ml/artifacts
+      - name: Integration test (serve)
+        run: |
+          source .venv/bin/activate
+          python - << 'PY'
+from krishirakshak_ml.inference.serve.app import app
+from fastapi.testclient import TestClient
+from PIL import Image
+import numpy as np
+import io
+
+client = TestClient(app)
+img = Image.fromarray((np.random.rand(64,64,3)*255).astype('uint8'))
+buf = io.BytesIO()
+img.save(buf, format='PNG')
+buf.seek(0)
+resp = client.post('/predict', files={'file': ('test.png', buf, 'image/png')})
+print(resp.status_code, resp.json())
+assert resp.status_code == 200
+PY

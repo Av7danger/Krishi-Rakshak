@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+krishirakshak_ml.egg-info/PKG-INFO
+krishirakshak_ml.egg-info/SOURCES.txt
+krishirakshak_ml.egg-info/dependency_links.txt
+krishirakshak_ml.egg-info/requires.txt
+krishirakshak_ml.egg-info/top_level.txt

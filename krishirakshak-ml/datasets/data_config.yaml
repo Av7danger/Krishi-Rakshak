@@ -1,0 +1,7 @@
+classes: [aphid, caterpillar, leaf_spot, healthy]
+raw_dir: data/raw
+labeled_dir: data/labeled
+build_dir: datasets/build
+img_size: 320
+val_split: 0.2
+consent_default: true

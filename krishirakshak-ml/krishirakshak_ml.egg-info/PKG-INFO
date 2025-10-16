@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: krishirakshak-ml
+Version: 0.1.0
+Summary: ML subsystem for KrishiRakshak: detection/classification, export, AL, inference
+Author: KrishiRakshak Team
+Requires-Python: >=3.10
+Requires-Dist: torch>=2.1
+Requires-Dist: torchvision>=0.16
+Requires-Dist: torchaudio>=2.1; platform_system != "Windows"
+Requires-Dist: ultralytics>=8.0.200
+Requires-Dist: timm>=0.9.8
+Requires-Dist: pydantic>=2.4
+Requires-Dist: python-dotenv>=1.0
+Requires-Dist: opencv-python-headless>=4.9
+Requires-Dist: numpy>=1.24
+Requires-Dist: pillow>=10.0
+Requires-Dist: scikit-learn>=1.3
+Requires-Dist: mlflow>=2.11
+Requires-Dist: fastapi>=0.110
+Requires-Dist: uvicorn>=0.23
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: tqdm>=4.66
+Requires-Dist: rich>=13.7
+Requires-Dist: requests>=2.31
+Requires-Dist: scipy>=1.10
+Requires-Dist: matplotlib>=3.8
+Requires-Dist: seaborn>=0.13
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4; extra == "dev"
+Requires-Dist: pytest-cov>=4.1; extra == "dev"
+Requires-Dist: flake8>=6.1; extra == "dev"
