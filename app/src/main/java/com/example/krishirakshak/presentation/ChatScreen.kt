@@ -52,7 +52,7 @@ fun ChatScreen(navController: NavController, viewModel: ChatViewModel = viewMode
         uri?.let {
             val source = ImageDecoder.createSource(context.contentResolver, it)
             val bitmap = ImageDecoder.decodeBitmap(source)
-            viewModel.addMessage("", true, bitmap)
+            viewModel.sendMessage("", bitmap)
             navController.currentBackStackEntry?.savedStateHandle?.remove<Uri>("captured_image_uri")
         }
     }
@@ -77,7 +77,7 @@ fun ChatScreen(navController: NavController, viewModel: ChatViewModel = viewMode
             }
             InputBar(
                 onPhotoClick = { navController.navigate("camera") },
-                onSendClick = { text -> viewModel.addMessage(text, true) }
+                onSendClick = { text -> viewModel.sendMessage(text) }
             )
         }
     }
